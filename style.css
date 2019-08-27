@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+}
+
+.header__flex {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.header__left,
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 37px;
+}
+
+.logo__img {
+    margin-right: 13px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    margin-right: 26px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu__link {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px;
+}
+
+.promo {
+    height: 613px;
+    background-color: #e8e8e8;
+}
+
+.promo__flex {
+    height: 100%;
+    background-image: url(img/promo-back.jpg);
+    background-position: 0 -52px;
+    display: flex;
+    align-items: center;
+}
+
+.promo__content {
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.promo__text {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 31px;
+}
+
+.promo__text_big {
+    font-size: 60px;
+    line-height: 43px;
+    margin-bottom: 20px;
+}
+
+.pink {
+    color: #f16d7f;
+}
+
+///
+
+.sales {
+  height: 823px;
+}
+.sales__flex{
+  height: 100%;
+}
