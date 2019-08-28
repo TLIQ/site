@@ -110,6 +110,19 @@ a {
 .sales {
   height: 823px;
 }
+
 .sales__flex{
   height: 100%;
+  display: flex;
+  align-items: center;
+}
+.sales_left{
+  display:inline-block;
+  position:relative;
+}
+.sales_text{
+  display:inline-block;
+position:absolute;
+top:30px;
+left:0px;
 }
