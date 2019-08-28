@@ -105,8 +105,6 @@ a {
     color: #f16d7f;
 }
 
-///
-
 .sales {
   height: 823px;
       margin: 98px;
@@ -152,7 +150,6 @@ a {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.45px;
-   margin-top: 42px;
 }
 
 .sales_right{
@@ -172,4 +169,15 @@ a {
   height: 542px;
   width: 560px;
   background-image: url("img/Layer_31.png");
+}
+
+.sales_card {
+    position:  relative;
+}
+
+.sales_info {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    background: white;
 }
