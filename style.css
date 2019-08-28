@@ -117,11 +117,11 @@ a {
   align-items: center;
 }
 .sales_left{
-  display:inline-block;
-  position:relative;
+  display: flex;
+  flex-direction: column;
 }
 .sales_text{
-  display:inline-block;
+
 position:absolute;
 top:30px;
 left:0px;
