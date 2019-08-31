@@ -105,11 +105,79 @@ a {
     color: #f16d7f;
 }
 
-///
-
 .sales {
   height: 823px;
+      margin: 98px;
 }
+
 .sales__flex{
   height: 100%;
+  margin: 98px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sales_left{
+  height: 823px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.sales_man{
+  height: 542px;
+  width: 560px;
+  background-image: url("img/Layer_30.png");
+  /* display: flex;
+  align-items: center; */
+}
+.content_sales_acces{
+  height: 261px;
+  width: 560px;
+  background-color: #dadad2;
+  background-size: 100%;
+}
+.sales_acces{
+  height: 240px;
+  width: 411px;
+  background-image: url("img/Layer_37.png");
+   background-position: 10px 0;
+
+}
+
+.sales_text{
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.45px;
+}
+
+.sales_right{
+  height: 823px;
+  justify-content: space-between;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sales_woman{
+  height: 261px;
+  width: 560px;
+  background-image: url("img/Layer_32.png");
+}
+.sales_kid{
+  height: 542px;
+  width: 560px;
+  background-image: url("img/Layer_31.png");
+}
+
+.sales_card {
+    position:  relative;
+}
+
+.sales_info {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    background: white;
 }
