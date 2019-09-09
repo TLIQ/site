@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afdc7aa636.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +13,8 @@
     <div class="container header__flex">
         <div class="header__left">
             <a href="" class="logo">
-                <img class="logo__img" src="img/logo.png" alt="logo">BRAND
+                <img class="logo__img" src="img/logo.png" alt="logo">
+                <p class="logo_text">BRAN<span class="pink">D</span></p>
             </a>
             <form class="form" action="#">
                 <div>Browse</div>
@@ -22,7 +24,11 @@
         </div>
         <div class="header__right">
             <img class="cart" src="img/cart.svg" alt="cart">
-            <a href="">My Account</a>
+            <div class="cart_button">
+                  <a class="button_account" href="#">My Account</a>
+                  <a class="triangle" href="#"></a>
+            </div>
+
         </div>
     </div>
 </div>
@@ -219,17 +225,91 @@
 
         </div>
         <div class="comment_right">
-          <p class="comment_text_right">Subscribe</p>
+          <p class="comment_text_right_big">Subscribe</p>
           <p class="comment_text_right">FOR OUR NEWLETTER AND PROMOTION</p>
-          <form class="form" action="#">
-              <div>Subscribe</div>
-              <input type="text">
-              <button>0</button>
+          <form class="example" action="action_page.php">
+                <input type="text" placeholder="Enter Your Email" name="search">
+                <button type="submit">Subscribe</button>
           </form>
+
+
+
+
+
+
         </div>
     </div>
   </div>
 
+<div class="footer container">
+    <div class="about">
+
+      <a href="" class="logo_footer">
+          <img class="logo_footer_img" src="img/logo.png" alt="logo">
+          <p class="logo_footer_text">BRAN<span class="pink">D</span></p>
+      </a>
+
+      <p class="footer_text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+      <p class="footer_text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+</p>
+
+    </div>
+    <ul class="about_list">
+        <h1 class="about_header">COMPANY</h1>
+        <li class="menu__list"><a href="#" class="footer__link">Home</a></li>
+        <li class="menu__list"><a href="#" class="footer__link">Shop</a></li>
+        <li class="menu__list"><a href="#" class="footer__link">About</a></li>
+        <li class="menu__list"><a href="#" class="footer__link">How It Works</a></li>
+        <li class="menu__list"><a href="#" class="footer__link">Contact</a></li>
+    </ul>
+    <ul class="about_list">
+      <h1 class="about_header">INFORMATION</h1>
+      <li class="menu__list"><a href="#" class="footer__link">Tearms & Condition</a></li>
+      <li class="menu__list"><a href="#" class="footer__link">Privacy Policy</a></li>
+      <li class="menu__list"><a href="#" class="footer__link">How to Buy</a></li>
+      <li class="menu__list"><a href="#" class="footer__link">How to Sell</a></li>
+      <li class="menu__list"><a href="#" class="footer__link">Promotion</a></li>
+    </ul>
+
+    <ul class="about_list">
+      <h1 class="about_header">SHOP CATEGORY</h1>
+      <li class="menu__list"><a href="#" class="footer__link">Men</a></li>
+      <li class="menu__list"><a href="#" class="footer__link">Women</a></li>
+      <li class="menu__list"><a href="#" class="footer__link">Child</a></li>
+      <li class="menu__list"><a href="#" class="footer__link">Apparel</a></li>
+      <li class="menu__list"><a href="#" class="footer__link">Brows All</a></li>
+    </ul>
+</div>
+
+  <div class="copyright">
+
+    <div class="copyright_content">
+        <div class="copyright_brand">
+          <p class="copyright_left">&copy; 2017 Brand  All Rights Reserved.</p>
+        </div>
+
+        <div class="copyright_right">
+          <div class="social">
+              <div class="social_card">
+                  <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="social_card">
+                  <i class="fab fa-twitter"></i>
+              </div>
+              <div class="social_card">
+                  <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div class="social_card">
+                  <i class="fab fa-google-plus-g"></i>
+              </div>
+          </div>
+        </div>
+
+
+
+    </div>
+  </div>
 
 </body>
 </html>
