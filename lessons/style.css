@@ -90,6 +90,10 @@ border-color: #000000 transparent transparent transparent;
     list-style: none;
 }
 
+.menu__list {
+    position: relative;
+}
+
 .menu__link {
     color: #222222;
     font-size: 14px;
@@ -97,6 +101,80 @@ border-color: #000000 transparent transparent transparent;
     text-transform: uppercase;
     display: block;
     padding: 20px;
+}
+
+
+
+.menu__list:hover .drop{
+    display: flex;
+}
+
+.drop {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: -4px;
+}
+
+.drop::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    position: absolute;
+    top: -7px;
+    left: 32px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+}
+
+.drop__h3 {
+    color: #232323;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    width: 235px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+
+.drop_last {
+    left: auto;
+    right: -5px;
+}
+
+.drop_last::before {
+    left: auto;
+    right: 52px;
+}
+
+.drop__flex {
+    margin-right: 46px;
+}
+
+.drop__flex:last-of-type {
+    margin-right: 0;
+}
+
+.drop__ul {
+    list-style-type: none;
+}
+
+.drop__link {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 28px;
 }
 
 .promo {
