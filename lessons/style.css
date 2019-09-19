@@ -217,6 +217,11 @@ border-color: #ffffff transparent transparent transparent;
     margin-bottom: 8px;
 }
 
+.menu_link_active{
+  border-bottom: 3px solid #ef5b70;
+  padding-bottom: 18px;
+}
+
 .drop_last {
     left: auto;
     right: -5px;
@@ -575,12 +580,14 @@ border-color: #ffffff transparent transparent transparent;
   flex-direction: column;
   background-image: url("img/offer.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .offer_gradient{
   position: absolute;
   background-image: url("img/Layer_39.jpg");
   height: 529px;
   width: 779px;
+  opacity: 0.3; 
 }
 .offer_text{
   position: absolute;
@@ -847,6 +854,8 @@ form.example::after {
   display:flex;
   justify-content: space-between;
   width: 200px;
+  align-items: center;
+  height: 100%;
 }
 .fab:hover{
   background-color: #f16d7f;
@@ -871,7 +880,6 @@ form.example::after {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.4px;
-    margin-top: 50px;
 }
 /* =============Women page======================= */
 .breadcrumb{
@@ -914,11 +922,16 @@ form.example::after {
 .product_list{
   display: flex;
   list-style: none;
-}
 
-.product_women{
+}
+.product_menu{
+  border-bottom: 1px solid #eaeaea;
+  padding: 30px;
+}
+.product_card{
   padding-top: 90px;
 }
+
 .product_column{
   width: 1137px;
   height: 12px;
@@ -934,6 +947,8 @@ form.example::after {
 .product_in_card{
   padding-top: 40px;
   display: flex;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 30px;
 }
 
 .product_name{
@@ -962,6 +977,7 @@ form.example::after {
 .product_info{
   padding-top: 30px;
   padding-right: 254px;
+  padding-left: 20px;
 }
 .price{
   color: #656565;
@@ -980,4 +996,179 @@ form.example::after {
 }
 .space{
   padding-left: 370px;
+}
+.product_in_card img{
+  background-color: rgba(101, 169, 200, 0.09);
+}
+.product_photo{
+  width: 100px;
+  height: 115px;
+  background-blend-mode: multiply;
+  background-image: url(img/Layer_43.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(101, 169, 200, 0.09);
+}
+
+.button_product{
+  background-color: #ffffff;
+	color: #4a4a4a;
+	display: block;
+	width: 230px;
+	padding: 20px 0;
+	text-align: center;
+  color: #4a4a4a;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+	margin-top: 50px;
+  border: 1px solid #eaeaea;
+}
+.clear_button{
+  margin-bottom: 113px;
+}
+.button_product:hover{
+  background-color: #f16d7f;
+}
+.clear_button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.shipping_card{
+  display: flex;
+  justify-content: space-between;
+}
+.shipping_adress{
+  display: flex;
+  flex-direction: column;
+}
+.shipping_adress{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+.shippind_discount{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+.shipping_total{
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 214px;
+  background-color: #f5f3f3;
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+}
+.total_text p{
+  padding-bottom: 20px;
+}
+.total_text{
+  border-bottom: 1px solid #e2e2e2;
+  width: 275px;
+}
+.total_button{
+  padding-top: 15px;
+}
+.shipping_text{
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.shipping_form {
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 300;
+  width: 355px;
+  height: 45px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+.discount_text{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+}
+.button_shipping{
+  background-color: #ffffff;
+	color: #4a4a4a;
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+  color: #4a4a4a;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+	/* margin-top: 50px; */
+  border: 1px solid #eaeaea;
+}
+.shipping_card_button{
+  /* margin-bottom: 113px; */
+}
+.button_shipping:hover{
+  background-color: #f16d7f;
+}
+.shipping_adress a{
+  width: 100px;
+}
+.shippind_discount a{
+  width: 120px;
+}
+.total_small{
+  color: #4a4a4a;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.total_big{
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button_total{
+  width: 273px;
+  background-color: #f16d7f;
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+	/* margin-top: 50px; */
+  border: 1px solid #eaeaea;
+}
+
+.shipping_card input{
+  padding-left: 10px;
+}
+
+/* =======single page======= */
+
+
+.slider{
+  border: 1px solid #eaeaea;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.slide{
+  width: 47px;
+  height: 47px;
+  background-color: grey;
+}
+.collection{
+  height: 730px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
 }
